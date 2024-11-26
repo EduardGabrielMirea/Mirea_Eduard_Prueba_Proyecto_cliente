@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1D24;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Header Styling */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #237BFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.route-button {
+    margin-right: 20px;
+}
+
+.login {
+    background-color: #237BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px; /* To avoid overlap with fixed header */
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.cards img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+/* Carousel Section Styling */
+.carousel {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mat-button-toggle-group {
+    margin-right: 20px;
+}
+
+.listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-card {
+    margin: 10px;
+    width: 250px;
+    background-color: #2A2D36;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.badge {
+    width: 24px;
+    height: 24px;
+}
